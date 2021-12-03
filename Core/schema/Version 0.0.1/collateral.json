@@ -31,8 +31,7 @@
 		},
 		"valuation": {
 			"$ref": "https://github.com/juspay/lsp-lender-protocol-specification/blob/master/Core/schema/Version%200.0.1/valuation.json"
-		}
-,
+		},
 		"parties": {
 			"type": "array",
 			"items":{ 

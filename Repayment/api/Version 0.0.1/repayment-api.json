@@ -6,60 +6,7 @@
         "version":"3.2"
     },
     "paths":{
-        "/v3/repayment/getRepaymentPlansRequest":{
-            "post":{
-                "description":"Invoked by LSP to get list of repayment plans",
-                "requestBody":{
-                    "description":"Request to lender to get repayment plans ",
-                    "content":{
-                        "application/json":{
-                            "schema":{
-                                "$ref":"https://github.com/juspay/lsp-lender-protocol-specification/blob/master/Repayment/schema/Version%200.0.1/Get%20Repayment%20Plans/GetRepaymentPlansRequest.json"
-                            }
-                        }
-                    }
-                },
-                "responses":{
-                    "200":{
-                        "description":"Acknowledgement of Request Received",
-                        "content":{
-                            "application/json":{
-                                "schema":{
-                                    "$ref":"https://github.com/juspay/lsp-lender-protocol-specification/blob/master/Core/schema/Version%200.0.1/ack.json"
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        "/v3/repayment/getRepaymentPlansResponse":{
-            "post":{
-                "description":"Invoked by lender to return repayment Plans",
-                "requestBody":{
-                    "description":"Returns array of repayment Plans",
-                    "content":{
-                        "application/json":{
-                            "schema":{
-                                "$ref":"https://github.com/juspay/lsp-lender-protocol-specification/blob/master/Repayment/schema/Version%200.0.1/Get%20Repayment%20Plans/GetRepaymentPlansResponse.json"
-                            }
-                        }
-                    }
-                },
-                "responses":{
-                    "200":{
-                        "description":"Acknowledgement of Response Received",
-                        "content":{
-                            "application/json":{
-                                "schema":{
-                                    "$ref":"https://github.com/juspay/lsp-lender-protocol-specification/blob/master/Core/schema/Version%200.0.1/ack.json"
-                                }
-                            }
-                        }
-                    }
-                }                
-            }
-        },
+        
         "/v3/repayment/setRepaymentPlanRequest":{
             "post":{
                 "description":"Invoked by LSP requesting lender to set repayment plan",

@@ -1,11 +1,12 @@
 {
 	"$schema": "http://json-schema.org/draft-07/schema#", 
-	"$id": "https://github.com/juspay/lsp-lender-protocol-specification/blob/master/Repayment/schema/Version%200.0.1/Get%20Repayment%20Plans/GetRepaymentPlansRequest.json", 
+	"$id": "https://github.com/juspay/lsp-lender-protocol-specification/blob/master/Loan%20Acceptance/schema/Version%200.0.1/Loan%20Agreement/LoanAgreementmentRequest.json",  
 	"type": "object",
 	"required": [
 		"metadata",
 		"requestId",
-		"loanId"
+		"loanApplicationIds"
+		
 	],
 	"properties": {
 		"metadata": {
@@ -15,9 +16,14 @@
 		"requestId": { 
 			"type": "string"
 		},
-		"loanId": {
-			"type": "string"
+		"loanApplicationIds": {
+			"type": "array",
+			"items":{ 
+				"type": "string"
+			}
 		}
+		
+
 	}
 }
 
