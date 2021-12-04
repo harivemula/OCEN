@@ -1,13 +1,13 @@
 {
 	"$schema": "http://json-schema.org/draft-07/schema#", 
-	"$id": "https://github.com/juspay/lsp-lender-protocol-specification/blob/master/Repayment/schema/Version%200.0.1/Trigger%20Repayment/TriggerRepaymentResponse.json",
+	"$id": "https://github.com/juspay/lsp-lender-protocol-specification/blob/master/KYC/schema/Version%200.0.1/Kyc%20Status/KycStatusResponse.json",
 	"type": "object",
 	"required": [
 		"metadata",
 		"requestId",
 		"response",
-		"loanId",
-		"payment"
+		"loanApplicationId",
+		"kyc"
 	],
 	"properties": {
 		"metadata": {
@@ -15,19 +15,17 @@
 			
 		}
 ,
-		"requestId": {
+		"requestId": { 
 			"type": "string"
 		},
-		"loanId": {
+		"loanApplicationId": { 
 			"type": "string"
 		},
-		"response": { 
+		"response":{
 			"$ref": "https://github.com/juspay/lsp-lender-protocol-specification/blob/master/Core/schema/Version%200.0.1/response.json"
-		}
-,
-		"payment": {
-			
-			"$ref": "https://github.com/juspay/lsp-lender-protocol-specification/blob/master/Core/schema/Version%200.0.1/paymentplan.json"
+		},
+		"kyc":{
+			"$ref":"https://github.com/juspay/lsp-lender-protocol-specification/blob/master/Core/schema/Version%200.0.1/kyc.json"
 		}
 
 	}
