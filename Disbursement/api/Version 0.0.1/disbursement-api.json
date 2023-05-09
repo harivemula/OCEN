@@ -20,7 +20,7 @@
                         "content":{
                             "application/json":{
                                 "schema":{
-                                    "$ref":"https://github.com/juspay/lsp-lender-protocol-specification/blob/master/Disbursement/schema/Version%200.0.1/Set%20Disbursement%20Account/SetDisbursementAccountRequest.json"
+                                    "$ref":"https://github.com/harivemula/OCEN/blob/f1/Disbursement/schema/Version%200.0.1/Set%20Disbursement%20Account/SetDisbursementAccountRequest.json"
                                 }
                             }
                         }
@@ -31,7 +31,7 @@
                             "content":{
                                 "application/json":{
                                     "schema":{
-                                        "$ref":"https://github.com/juspay/lsp-lender-protocol-specification/blob/master/Core/schema/Version%200.0.1/ack.json"
+                                        "$ref":"https://github.com/harivemula/OCEN/blob/f1/Core/schema/Version%200.0.1/ack.json"
                                     }
                                 }
                             }
@@ -47,7 +47,7 @@
                         "content":{
                             "application/json":{
                                 "schema":{
-                                    "$ref":"https://github.com/juspay/lsp-lender-protocol-specification/blob/master/Disbursement/schema/Version%200.0.1/Set%20Disbursement%20Account/SetDisbursementAccountResponse.json"
+                                    "$ref":"https://github.com/harivemula/OCEN/blob/f1/Disbursement/schema/Version%200.0.1/Set%20Disbursement%20Account/SetDisbursementAccountResponse.json"
                                 }
                             }
                         }
@@ -58,7 +58,7 @@
                             "content":{
                                 "application/json":{
                                     "schema":{
-                                        "$ref":"https://github.com/juspay/lsp-lender-protocol-specification/blob/master/Core/schema/Version%200.0.1/ack.json"
+                                        "$ref":"https://github.com/harivemula/OCEN/blob/f1/Core/schema/Version%200.0.1/ack.json"
                                     }
                                 }
                             }
@@ -74,7 +74,7 @@
                         "content":{
                             "application/json":{
                                 "schema":{
-                                    "$ref":"https://github.com/juspay/lsp-lender-protocol-specification/blob/master/Disbursement/schema/Version%200.0.1/Trigger%20Disbursement/TriggerDisbursementRequest.json"
+                                    "$ref":"https://github.com/harivemula/OCEN/blob/f1/Disbursement/schema/Version%200.0.1/Trigger%20Disbursement/TriggerDisbursementRequest.json"
                                 }
                             }
                         }
@@ -85,7 +85,7 @@
                             "content":{
                                 "application/json":{
                                     "schema":{
-                                        "$ref":"https://github.com/juspay/lsp-lender-protocol-specification/blob/master/Core/schema/Version%200.0.1/ack.json"
+                                        "$ref":"https://github.com/harivemula/OCEN/blob/f1/Core/schema/Version%200.0.1/ack.json"
                                     }
                                 }
                             }
@@ -101,7 +101,7 @@
                         "content":{
                             "application/json":{
                                 "schema":{
-                                    "$ref":"https://github.com/juspay/lsp-lender-protocol-specification/blob/master/Disbursement/schema/Version%200.0.1/Trigger%20Disbursement/TriggerDisbursementResponse.json"
+                                    "$ref":"https://github.com/harivemula/OCEN/blob/f1/Disbursement/schema/Version%200.0.1/Trigger%20Disbursement/TriggerDisbursementResponse.json"
                                 }
                             }
                         }
@@ -112,7 +112,7 @@
                             "content":{
                                 "application/json":{
                                     "schema":{
-                                        "$ref":"https://github.com/juspay/lsp-lender-protocol-specification/blob/master/Core/schema/Version%200.0.1/ack.json"
+                                        "$ref":"https://github.com/harivemula/OCEN/blob/f1/Core/schema/Version%200.0.1/ack.json"
                                     }
                                 }
                             }
@@ -128,7 +128,7 @@
                         "content":{
                             "application/json":{
                                 "schema":{
-                                    "$ref":"https://github.com/juspay/lsp-lender-protocol-specification/blob/master/Disbursement/schema/Version%200.0.1/Trigger%20Disbursement%20Status/TriggerDisbursementStatusRequest.json"
+                                    "$ref":"https://github.com/harivemula/OCEN/blob/f1/Disbursement/schema/Version%200.0.1/Trigger%20Disbursement%20Status/TriggerDisbursementStatusRequest.json"
                                 }
                             }
                         }
@@ -139,7 +139,7 @@
                             "content":{
                                 "application/json":{
                                     "schema":{
-                                        "$ref":"https://github.com/juspay/lsp-lender-protocol-specification/blob/master/Core/schema/Version%200.0.1/ack.json"
+                                        "$ref":"https://github.com/harivemula/OCEN/blob/f1/Core/schema/Version%200.0.1/ack.json"
                                     }
                                 }
                             }
@@ -155,7 +155,7 @@
                         "content":{
                             "application/json":{
                                 "schema":{
-                                    "$ref":"https://github.com/juspay/lsp-lender-protocol-specification/blob/master/Disbursement/schema/Version%200.0.1/Trigger%20Disbursement%20Status/TriggerDisbursementStatusResponse.json"
+                                    "$ref":"https://github.com/harivemula/OCEN/blob/f1/Disbursement/schema/Version%200.0.1/Trigger%20Disbursement%20Status/TriggerDisbursementStatusResponse.json"
                                 }
                             }
                         }
@@ -166,7 +166,7 @@
                             "content":{
                                 "application/json":{
                                     "schema":{
-                                        "$ref":"https://github.com/juspay/lsp-lender-protocol-specification/blob/master/Core/schema/Version%200.0.1/ack.json"
+                                        "$ref":"https://github.com/harivemula/OCEN/blob/f1/Core/schema/Version%200.0.1/ack.json"
                                     }
                                 }
                             }

@@ -1,6 +1,6 @@
 {
 	"$schema": "http://json-schema.org/draft-07/schema#", 
-	"$id": "https://github.com/juspay/lsp-lender-protocol-specification/blob/master/KYC/schema/Version%200.0.1/Trigger%20Kyc/TriggerKycRequest.json", 
+	"$id": "https://github.com/harivemula/OCEN/blob/f1/KYC/schema/Version%200.0.1/Trigger%20Kyc/TriggerKycRequest.json", 
 	"type": "object",
 	"required": [
 		"metadata",
@@ -10,7 +10,7 @@
 	],
 	"properties": {
 		"metadata": {
-			"$ref": "https://github.com/juspay/lsp-lender-protocol-specification/blob/master/Core/schema/Version%200.0.1/metadata.json"
+			"$ref": "https://github.com/harivemula/OCEN/blob/f1/Core/schema/Version%200.0.1/metadata.json"
 		}
 ,
 		"requestId": { 
@@ -26,7 +26,7 @@
 			}
 		},
 		"kyc":{
-			"$ref":"https://github.com/juspay/lsp-lender-protocol-specification/blob/master/Core/schema/Version%200.0.1/kyc.json"
+			"$ref":"https://github.com/harivemula/OCEN/blob/f1/Core/schema/Version%200.0.1/kyc.json"
 		}
 	}
 }
