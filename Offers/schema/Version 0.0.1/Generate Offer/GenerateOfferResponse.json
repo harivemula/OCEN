@@ -1,6 +1,6 @@
 {
 	"$schema": "http://json-schema.org/draft-07/schema#", 
-	"$id": "https://github.com/harivemula/OCEN/blob/f1/Offers/schema/Version%200.0.1/Generate%20Offer/GenerateOfferResponse.json", 
+	"$id": "https://raw.githubusercontent.com/harivemula/OCEN/f1/Offers/schema/Version%200.0.1/Generate%20Offer/GenerateOfferResponse.json", 
 	"type": "object",
 	"required": [
 		"metadata",
@@ -10,11 +10,11 @@
 	],
 	"properties": {
 		"metadata": {
-			"$ref": "https://github.com/harivemula/OCEN/blob/f1/Core/schema/Version%200.0.1/metadata.json"
+			"$ref": "https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version%200.0.1/metadata.json"
 		}
 ,
 		"response": {
-			"$ref": "https://github.com/harivemula/OCEN/blob/f1/Core/schema/Version%200.0.1/response.json"
+			"$ref": "https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version%200.0.1/response.json"
 		}
 ,
 		"requestId": { 
@@ -23,7 +23,7 @@
 		"loanApplications": {
 			"type": "array",
 			"items":{ 
-				"$ref": "https://github.com/harivemula/OCEN/blob/f1/Core/schema/Version%200.0.1/loanApplications.json"
+				"$ref": "https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version%200.0.1/loanApplications.json"
 			}
 
 		}

@@ -1,6 +1,6 @@
 {
 	"$schema": "http://json-schema.org/draft-07/schema#", 
-	"$id": "https://github.com/harivemula/OCEN/blob/f1/Grant%20Loan/schema/Version%200.0.1/List%20Loans/ListLoansRequest.json", 
+	"$id": "https://raw.githubusercontent.com/harivemula/OCEN/f1/Grant%20Loan/schema/Version%200.0.1/List%20Loans/ListLoansRequest.json", 
 	"title": "Root", 
 	"type": "object",
 	"required": [
@@ -10,18 +10,18 @@
 	],
 	"properties": {
 		"metadata": {
-			"$ref": "https://github.com/harivemula/OCEN/blob/f1/Core/schema/Version%200.0.1/metadata.json"
+			"$ref": "https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version%200.0.1/metadata.json"
 		}
 ,
 		"requestId": { 
 			"type": "string"
 		},
 		"borrower": {
-			"$ref": "https://github.com/harivemula/OCEN/blob/f1/Core/schema/Version%200.0.1/borrower.json"
+			"$ref": "https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version%200.0.1/borrower.json"
 		}
 ,
 		"collateral": {
-			"$ref": "https://github.com/harivemula/OCEN/blob/f1/Core/schema/Version%200.0.1/collateral.json"
+			"$ref": "https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version%200.0.1/collateral.json"
 		},
 		"startDate": { 
 			"type": "string"

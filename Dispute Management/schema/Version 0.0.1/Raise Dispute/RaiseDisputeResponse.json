@@ -1,6 +1,6 @@
 {
 	"$schema": "http://json-schema.org/draft-07/schema#", 
-	"$id": "https://github.com/harivemula/OCEN/blob/f1/Dispute%20Management/schema/Version%200.0.1/Raise%20Dispute/RaiseDisputeResponse.json", 
+	"$id": "https://raw.githubusercontent.com/harivemula/OCEN/f1/Dispute%20Management/schema/Version%200.0.1/Raise%20Dispute/RaiseDisputeResponse.json", 
 	"type": "object",
 	"required": [
 		"metadata",
@@ -10,11 +10,11 @@
 	],
 	"properties": {
 		"metadata": {
-			"$ref": "https://github.com/harivemula/OCEN/blob/f1/Core/schema/Version%200.0.1/metadata.json"
+			"$ref": "https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version%200.0.1/metadata.json"
 		}
 ,
 		"response": {
-			"$ref": "https://github.com/harivemula/OCEN/blob/f1/Core/schema/Version%200.0.1/response.json"
+			"$ref": "https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version%200.0.1/response.json"
 		}
 ,
 		"requestId": { 
@@ -24,7 +24,7 @@
 			]
 		},
 		"dispute": { 
-			"$ref": "https://github.com/harivemula/OCEN/blob/f1/Core/schema/Version%200.0.1/dispute.json"
+			"$ref": "https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version%200.0.1/dispute.json"
 		}
 
 	}

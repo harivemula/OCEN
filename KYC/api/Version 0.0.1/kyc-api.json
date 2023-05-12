@@ -14,7 +14,7 @@
                     "content":{
                         "application/json":{
                             "schema":{
-                                "$ref":"https://github.com/harivemula/OCEN/blob/f1/Offers/schema/Version%200.0.1/Kyc%20Status/KycStatusRequest.json"
+                                "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f1/Offers/schema/Version%200.0.1/Kyc%20Status/KycStatusRequest.json"
                             }
                         }
                     }
@@ -25,7 +25,7 @@
                         "content":{
                             "application/json":{
                                 "schema":{
-                                    "$ref":"https://github.com/harivemula/OCEN/blob/f1/Core/schema/Version%200.0.1/ack.json"
+                                    "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version%200.0.1/ack.json"
                                 }
                             }
                         }
@@ -41,7 +41,7 @@
                     "content":{
                         "application/json":{
                             "schema":{
-                                "$ref":"https://github.com/harivemula/OCEN/blob/f1/KYC/schema/Version%200.0.1/Kyc%20Status/KycStatusResponse.json"
+                                "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f1/KYC/schema/Version%200.0.1/Kyc%20Status/KycStatusResponse.json"
                             }
                         }
                     }
@@ -52,7 +52,7 @@
                         "content":{
                             "application/json":{
                                 "schema":{
-                                    "$ref":"https://github.com/harivemula/OCEN/blob/f1/Core/schema/Version%200.0.1/ack.json"
+                                    "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version%200.0.1/ack.json"
                                 }
                             }
                         }
@@ -68,7 +68,7 @@
                     "content":{
                         "application/json":{
                             "schema":{
-                                "$ref":"https://github.com/harivemula/OCEN/blob/f1/KYC/schema/Version%200.0.1/Trigger%20Kyc/TriggerKycRequest.json"
+                                "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f1/KYC/schema/Version%200.0.1/Trigger%20Kyc/TriggerKycRequest.json"
                             }
                         }
                     }
@@ -79,7 +79,7 @@
                         "content":{
                             "application/json":{
                                 "schema":{
-                                    "$ref":"https://github.com/harivemula/OCEN/blob/f1/Core/schema/Version%200.0.1/ack.json"
+                                    "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version%200.0.1/ack.json"
                                 }
                             }
                         }
@@ -95,7 +95,7 @@
                     "content":{
                         "application/json":{
                             "schema":{
-                                "$ref":"https://github.com/harivemula/OCEN/blob/f1/KYC/schema/Version%200.0.1/Trigger%20Kyc/TriggerKycResponse.json"
+                                "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f1/KYC/schema/Version%200.0.1/Trigger%20Kyc/TriggerKycResponse.json"
                             }
                         }
                     }
@@ -106,7 +106,7 @@
                         "content":{
                             "application/json":{
                                 "schema":{
-                                    "$ref":"https://github.com/harivemula/OCEN/blob/f1/Core/schema/Version%200.0.1/ack.json"
+                                    "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version%200.0.1/ack.json"
                                 }
                             }
                         }
