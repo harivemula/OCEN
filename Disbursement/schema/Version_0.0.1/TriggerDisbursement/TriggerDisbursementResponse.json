@@ -1,6 +1,6 @@
 {
 	"$schema": "http://json-schema.org/draft-07/schema#", 
-	"$id": "https://raw.githubusercontent.com/harivemula/OCEN/f1/Disbursement/schema/Version%200.0.1/Trigger%20Disbursement/TriggerDisbursementResponse.json", 
+	"$id": "https://raw.githubusercontent.com/harivemula/OCEN/f1/Disbursement/schema/Version_0.0.1/TriggerDisbursement/TriggerDisbursementResponse.json", 
 	"type": "object",
 	"required": [
 		"metadata",
@@ -10,12 +10,12 @@
 	],
 	"properties": {
 		"metadata": {
-			"$ref": "https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version%200.0.1/metadata.json"
+			"$ref": "https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version_0.0.1/metadata.json"
 			
 		}
 ,
 		"response": { 
-			"$ref": "https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version%200.0.1/response.json"
+			"$ref": "https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version_0.0.1/response.json"
 			
 		}
 ,
@@ -26,7 +26,7 @@
 			]
 		},
 		"payment": {
-			"$ref": "https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version%200.0.1/payment.json"
+			"$ref": "https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version_0.0.1/payment.json"
 		}
 
 	}

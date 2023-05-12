@@ -1,6 +1,6 @@
 {
 	"$schema": "http://json-schema.org/draft-07/schema#", 
-	"$id": "https://raw.githubusercontent.com/harivemula/OCEN/f1/Disbursement/schema/Version%200.0.1/Set%20Disbursement%20Account/SetDisbursementAccountRequest.json",  
+	"$id": "https://raw.githubusercontent.com/harivemula/OCEN/f1/Disbursement/schema/Version_0.0.1/SetDisbursementAccount/SetDisbursementAccountRequest.json",  
 	"type": "object",
 	"required": [
 		"metadata",
@@ -10,7 +10,7 @@
 	],
 	"properties": {
 		"metadata": { 
-            "$ref": "https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version%200.0.1/metadata.json"
+            "$ref": "https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version_0.0.1/metadata.json"
 		}
 ,
 		"requestId": { 
@@ -29,7 +29,7 @@
 			"type":"string"
 		},
 		"account": { 
-			"$ref": "https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version%200.0.1/accountdetails.json"
+			"$ref": "https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version_0.0.1/accountdetails.json"
 		}
 
 	}

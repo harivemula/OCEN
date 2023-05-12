@@ -15,7 +15,7 @@
                     "content":{
                         "application/json":{
                             "schema":{
-                                "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f1/Repayment/schema/Version%200.0.1/Set%20Repayment%20Plan/SetRepayementPlanRequest.json"
+                                "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f1/Repayment/schema/Version_0.0.1/SetRepaymentPlan/SetRepayementPlanRequest.json"
                             }
                         }
                     }
@@ -26,7 +26,7 @@
                         "content":{
                             "application/json":{
                                 "schema":{
-                                    "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version%200.0.1/ack.json"
+                                    "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version_0.0.1/ack.json"
                                 }
                             }
                         }
@@ -42,7 +42,7 @@
                     "content":{
                         "application/json":{
                             "schema":{
-                                "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f1/Repayment/schema/Version%200.0.1/Set%20Repayment%20Plan/SetRepaymentPlanResponse.json"
+                                "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f1/Repayment/schema/Version_0.0.1/SetRepaymentPlan/SetRepaymentPlanResponse.json"
                             }
                         }
                     }
@@ -53,7 +53,7 @@
                         "content":{
                             "application/json":{
                                 "schema":{
-                                    "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version%200.0.1/ack.json"
+                                    "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version_0.0.1/ack.json"
                                 }
                             }
                         }
@@ -69,7 +69,7 @@
                     "content":{
                         "application/json":{
                             "schema":{
-                                "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f1/Repayment/schema/Version%200.0.1/Set%20Repayment%20Plan%20Status/SetRepayementPlanStatusRequest.json"
+                                "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f1/Repayment/schema/Version_0.0.1/SetRepaymentPlanStatus/SetRepayementPlanStatusRequest.json"
                             }
                         }
                     }
@@ -80,7 +80,7 @@
                         "content":{
                             "application/json":{
                                 "schema":{
-                                    "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version%200.0.1/ack.json"
+                                    "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version_0.0.1/ack.json"
                                 }
                             }
                         }
@@ -96,7 +96,7 @@
                     "content":{
                         "application/json":{
                             "schema":{
-                                "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f1/Repayment/schema/Version%200.0.1/Set%20Repayment%20Plan%20Status/SetRepaymentPlanStatusResponse.json"
+                                "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f1/Repayment/schema/Version_0.0.1/SetRepaymentPlanStatus/SetRepaymentPlanStatusResponse.json"
                             }
                         }
                     }
@@ -107,7 +107,7 @@
                         "content":{
                             "application/json":{
                                 "schema":{
-                                    "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version%200.0.1/ack.json"
+                                    "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version_0.0.1/ack.json"
                                 }
                             }
                         }
@@ -123,7 +123,7 @@
                             "content":{
                                 "application/json":{
                                     "schema":{
-                                        "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f1/Repayment/schema/Version%200.0.1/Trigger%20Repayment/TriggerRepaymentRequest.json"
+                                        "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f1/Repayment/schema/Version_0.0.1/TriggerRepayment/TriggerRepaymentRequest.json"
                                     }
                                 }
                             }
@@ -134,7 +134,7 @@
                                 "content":{
                                     "application/json":{
                                         "schema":{
-                                            "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version%200.0.1/ack.json"
+                                            "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version_0.0.1/ack.json"
                                         }
                                     }
                                 }
@@ -150,7 +150,7 @@
                             "content":{
                                 "application/json":{
                                     "schema":{
-                                        "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f1/Repayment/schema/Version%200.0.1/Trigger%20Repayment/TriggerRepaymentResponse.json"
+                                        "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f1/Repayment/schema/Version_0.0.1/TriggerRepayment/TriggerRepaymentResponse.json"
                                     }
                                 }
                             }
@@ -161,7 +161,7 @@
                                 "content":{
                                     "application/json":{
                                         "schema":{
-                                            "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version%200.0.1/ack.json"
+                                            "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version_0.0.1/ack.json"
                                         }
                                     }
                                 }
@@ -177,7 +177,7 @@
                             "content":{
                                 "application/json":{
                                     "schema":{
-                                        "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f1/Repayment/schema/Version%200.0.1/Trigger%20Repayment%20Status/TriggerRepaymentStatusRequest.json"
+                                        "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f1/Repayment/schema/Version_0.0.1/TriggerRepaymentStatus/TriggerRepaymentStatusRequest.json"
                                     }
                                 }
                             }
@@ -188,7 +188,7 @@
                                 "content":{
                                     "application/json":{
                                         "schema":{
-                                            "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version%200.0.1/ack.json"
+                                            "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version_0.0.1/ack.json"
                                         }
                                     }
                                 }
@@ -204,7 +204,7 @@
                             "content":{
                                 "application/json":{
                                     "schema":{
-                                        "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f1/Repayment/schema/Version%200.0.1/Trigger%20Repayment%20Status/TriggerRepaymentStatusResponse.json"
+                                        "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f1/Repayment/schema/Version_0.0.1/TriggerRepaymentStatus/TriggerRepaymentStatusResponse.json"
                                     }
                                 }
                             }
@@ -215,7 +215,7 @@
                                 "content":{
                                     "application/json":{
                                         "schema":{
-                                            "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version%200.0.1/ack.json"
+                                            "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version_0.0.1/ack.json"
                                         }
                                     }
                                 }
@@ -231,7 +231,7 @@
                             "content":{
                                 "application/json":{
                                     "schema":{
-                                        "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f1/Repayment/schema/Version%200.0.1/Confirm%20Repayment/ConfirmRepaymentRequest.json"
+                                        "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f1/Repayment/schema/Version_0.0.1/ConfirmRepayment/ConfirmRepaymentRequest.json"
                                     }
                                 }
                             }
@@ -242,7 +242,7 @@
                                 "content":{
                                     "application/json":{
                                         "schema":{
-                                            "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version%200.0.1/ack.json"
+                                            "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version_0.0.1/ack.json"
                                         }
                                     }
                                 }

@@ -1,6 +1,6 @@
 {
 	"$schema": "http://json-schema.org/draft-07/schema#", 
-	"$id": "https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version%200.0.1/kyc.json",  
+	"$id": "https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version_0.0.1/kyc.json",  
 	"type": "object",
 	"properties": {
 		"verificationStatus": { 
@@ -22,13 +22,13 @@
 			
 		},
         "individualKYC": {
-			"$ref": "https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version%200.0.1/kycdetails.json"
+			"$ref": "https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version_0.0.1/kycdetails.json"
 		},
 		"entityKYC": {
-			"$ref": "https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version%200.0.1/kycdetails.json"
+			"$ref": "https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version_0.0.1/kycdetails.json"
 		},
         "extensibleData":{
-            "$ref": "https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version%200.0.1/extensibleData.json"
+            "$ref": "https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version_0.0.1/extensibleData.json"
         }
 
 	}

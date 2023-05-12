@@ -1,6 +1,6 @@
 {
 	"$schema": "http://json-schema.org/draft-07/schema#", 
-	"$id": "https://raw.githubusercontent.com/harivemula/OCEN/f1/Loan%20Application/schema/Version%200.0.1/Create%20Loan%20Applications/CreateLoanApplicationsRequest.json",
+	"$id": "https://raw.githubusercontent.com/harivemula/OCEN/f1/LoanApplication/schema/Version_0.0.1/CreateLoanApplications/CreateLoanApplicationsRequest.json",
 	"type": "object",
 	"required": [
 		"metadata",
@@ -9,7 +9,7 @@
 	],
 	"properties": {
 		"metadata": {
-			"$ref": "https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version%200.0.1/metadata.json"
+			"$ref": "https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version_0.0.1/metadata.json"
 		}
 ,
 		"requestId": { 
@@ -46,32 +46,32 @@
 						]
 					},
 					"borrower": {
-						"$ref": "https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version%200.0.1/borrower.json"
+						"$ref": "https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version_0.0.1/borrower.json"
 					}
 ,
 					"collaterals": { 
 						"type": "array",
 						"items":{
-							"$ref": "https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version%200.0.1/collateral.json"
+							"$ref": "https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version_0.0.1/collateral.json"
 						}
 
 					},
 					"guarantors": {
 						"type": "array",
 						"items": {
-							"$ref": "https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version%200.0.1/guarantor.json"
+							"$ref": "https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version_0.0.1/guarantor.json"
 							
 						}
 					},
 					"applicants": {
 						"type": "array",
 						"items":{
-							"$ref": "https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version%200.0.1/applicant.json"
+							"$ref": "https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version_0.0.1/applicant.json"
 						}
 
 					},
 					"terms": {
-						"$ref": "https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version%200.0.1/loanterms.json"
+						"$ref": "https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version_0.0.1/loanterms.json"
 					},
 					"url":{
 						"type":"string"
@@ -80,7 +80,7 @@
 						"type":"string"
 					},
 					"extensibleData":{
-						"$ref": "https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version%200.0.1/extensibleData.json"
+						"$ref": "https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version_0.0.1/extensibleData.json"
 					}
 
 				}

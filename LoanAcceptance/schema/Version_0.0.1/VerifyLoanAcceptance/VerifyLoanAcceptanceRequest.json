@@ -1,6 +1,6 @@
 {
 	"$schema": "http://json-schema.org/draft-07/schema#", 
-	"$id": "https://raw.githubusercontent.com/harivemula/OCEN/f1/Loan%20Acceptance/schema/Version%200.0.1/Verify%20Loan%20Acceptance/VerifyLoanAcceptanceRequest.json",  
+	"$id": "https://raw.githubusercontent.com/harivemula/OCEN/f1/LoanAcceptance/schema/Version_0.0.1/VerifyLoanAcceptance/VerifyLoanAcceptanceRequest.json",  
 	"type": "object",
 	"required": [
 		"metadata",
@@ -9,7 +9,7 @@
 	],
 	"properties": {
 		"metadata": {
-			"$ref": "https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version%200.0.1/metadata.json"
+			"$ref": "https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version_0.0.1/metadata.json"
 		}
 ,
 		"requestId": { 
@@ -18,7 +18,7 @@
 			]
 		},
 		"credBlock": {
-			"$ref": "https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version%200.0.1/credBlock.json"
+			"$ref": "https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version_0.0.1/credBlock.json"
 		}
 
 	}
