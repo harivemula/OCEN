@@ -1,6 +1,6 @@
 {
 	"$schema": "http://json-schema.org/draft-07/schema#", 
-	"$id": "https://raw.githubusercontent.com/harivemula/OCEN/f1/Repayment/schema/Version_0.0.1/SetRepaymentPlan/SetRepaymentPlanResponse.json", 
+	"$id": "https://raw.githubusercontent.com/harivemula/OCEN/f2/Repayment/schema/Version_0.0.1/SetRepaymentPlan/SetRepaymentPlanResponse.json", 
 	"type": "object",
 	"required": [
 		"metadata",
@@ -10,19 +10,19 @@
 	],
 	"properties": {
 		"metadata": {
-			"$ref": "https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version_0.0.1/metadata.json"
+			"$ref": "https://raw.githubusercontent.com/harivemula/OCEN/f2/Core/schema/Version_0.0.1/metadata.json"
 			
 		}
 ,
 		"response": {
-			"$ref": "https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version_0.0.1/response.json"
+			"$ref": "https://raw.githubusercontent.com/harivemula/OCEN/f2/Core/schema/Version_0.0.1/response.json"
 		}
 ,
 		"requestId": {
 			"type": "string"
 		},
 		"plan": {
-            "$ref": "https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version_0.0.1/paymentplan.json"
+            "$ref": "https://raw.githubusercontent.com/harivemula/OCEN/f2/Core/schema/Version_0.0.1/paymentplan.json"
 			
 		}
 

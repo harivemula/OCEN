@@ -14,7 +14,7 @@
                     "content":{
                         "application/json":{
                             "schema":{
-                                "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f1/Offers/schema/Version_0.0.1/KycStatus/KycStatusRequest.json"
+                                "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f2/Offers/schema/Version_0.0.1/KycStatus/KycStatusRequest.json"
                             }
                         }
                     }
@@ -25,7 +25,7 @@
                         "content":{
                             "application/json":{
                                 "schema":{
-                                    "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version_0.0.1/ack.json"
+                                    "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f2/Core/schema/Version_0.0.1/ack.json"
                                 }
                             }
                         }
@@ -41,7 +41,7 @@
                     "content":{
                         "application/json":{
                             "schema":{
-                                "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f1/KYC/schema/Version_0.0.1/KycStatus/KycStatusResponse.json"
+                                "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f2/KYC/schema/Version_0.0.1/KycStatus/KycStatusResponse.json"
                             }
                         }
                     }
@@ -52,7 +52,7 @@
                         "content":{
                             "application/json":{
                                 "schema":{
-                                    "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version_0.0.1/ack.json"
+                                    "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f2/Core/schema/Version_0.0.1/ack.json"
                                 }
                             }
                         }
@@ -68,7 +68,7 @@
                     "content":{
                         "application/json":{
                             "schema":{
-                                "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f1/KYC/schema/Version_0.0.1/TriggerKyc/TriggerKycRequest.json"
+                                "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f2/KYC/schema/Version_0.0.1/TriggerKyc/TriggerKycRequest.json"
                             }
                         }
                     }
@@ -79,7 +79,7 @@
                         "content":{
                             "application/json":{
                                 "schema":{
-                                    "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version_0.0.1/ack.json"
+                                    "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f2/Core/schema/Version_0.0.1/ack.json"
                                 }
                             }
                         }
@@ -95,7 +95,7 @@
                     "content":{
                         "application/json":{
                             "schema":{
-                                "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f1/KYC/schema/Version_0.0.1/TriggerKyc/TriggerKycResponse.json"
+                                "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f2/KYC/schema/Version_0.0.1/TriggerKyc/TriggerKycResponse.json"
                             }
                         }
                     }
@@ -106,7 +106,7 @@
                         "content":{
                             "application/json":{
                                 "schema":{
-                                    "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version_0.0.1/ack.json"
+                                    "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f2/Core/schema/Version_0.0.1/ack.json"
                                 }
                             }
                         }

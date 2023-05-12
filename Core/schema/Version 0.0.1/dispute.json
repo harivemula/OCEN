@@ -1,6 +1,6 @@
 {
 	"$schema": "http://json-schema.org/draft-07/schema#", 
-	"$id": "https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version_0.0.1/dispute.json",  
+	"$id": "https://raw.githubusercontent.com/harivemula/OCEN/f2/Core/schema/Version_0.0.1/dispute.json",  
 	"type": "object",
 	"required": [
 		
@@ -22,7 +22,7 @@
 			]
 		},
 		"extensibleData":{
-			"$ref": "https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version_0.0.1/extensibleData.json"
+			"$ref": "https://raw.githubusercontent.com/harivemula/OCEN/f2/Core/schema/Version_0.0.1/extensibleData.json"
 		}
 	}
 }

@@ -1,6 +1,6 @@
 {
 	"$schema": "http://json-schema.org/draft-07/schema#", 
-	"$id": "https://raw.githubusercontent.com/harivemula/OCEN/f1/GrantLoan/schema/Version_0.0.1/GrantLoan/GrantLoanResponse.json",
+	"$id": "https://raw.githubusercontent.com/harivemula/OCEN/f2/GrantLoan/schema/Version_0.0.1/GrantLoan/GrantLoanResponse.json",
 	"type": "object",
 	"required": [
 		"metadata",
@@ -14,11 +14,11 @@
 	],
 	"properties": {
 		"metadata": {
-			"$ref": "https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version_0.0.1/metadata.json"
+			"$ref": "https://raw.githubusercontent.com/harivemula/OCEN/f2/Core/schema/Version_0.0.1/metadata.json"
 		}
 ,
 		"response": { 
-			"$ref": "https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version_0.0.1/response.json"
+			"$ref": "https://raw.githubusercontent.com/harivemula/OCEN/f2/Core/schema/Version_0.0.1/response.json"
 		}
 ,
 		"requestId": { 
@@ -34,15 +34,15 @@
 			]
 		},
 		"terms": {
-			"$ref": "https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version_0.0.1/loanterms.json"
+			"$ref": "https://raw.githubusercontent.com/harivemula/OCEN/f2/Core/schema/Version_0.0.1/loanterms.json"
 		}
 ,
 		"disbursement": {
-			"$ref": "https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version_0.0.1/chosenDisbursement.json"
+			"$ref": "https://raw.githubusercontent.com/harivemula/OCEN/f2/Core/schema/Version_0.0.1/chosenDisbursement.json"
 		}
 ,
 		"repayment": {
-			"$ref": "https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version_0.0.1/chosenRepayment.json"
+			"$ref": "https://raw.githubusercontent.com/harivemula/OCEN/f2/Core/schema/Version_0.0.1/chosenRepayment.json"
 		}
 ,
 		"loanStatus": { 
@@ -54,13 +54,13 @@
 		"rejectionDetails":{
 			"type":"array",
 			"items": {
-				"$ref": "https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version_0.0.1/rejectiondetail.json"
+				"$ref": "https://raw.githubusercontent.com/harivemula/OCEN/f2/Core/schema/Version_0.0.1/rejectiondetail.json"
 			}
 		},
 		"actionRequired":{
 			"type":"array",
 			"items": {
-			"$ref": "https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version_0.0.1/actionrequired.json"
+			"$ref": "https://raw.githubusercontent.com/harivemula/OCEN/f2/Core/schema/Version_0.0.1/actionrequired.json"
 		}
 	}
 	}

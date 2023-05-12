@@ -14,7 +14,7 @@
                     "content":{
                         "application/json":{
                             "schema":{
-                                "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f1/Consent/schema/Version_0.0.1/ConsentHandle/ConsentHandleRequest.json"
+                                "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f2/Consent/schema/Version_0.0.1/ConsentHandle/ConsentHandleRequest.json"
                             }
                         }
                     }
@@ -25,7 +25,7 @@
                              "content":{
                                 "application/json":{
                                     "schema":{
-                                        "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version_0.0.1/ack.json"
+                                        "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f2/Core/schema/Version_0.0.1/ack.json"
                                     }
                             }
                         }
@@ -41,7 +41,7 @@
                     "content":{
                         "application/json":{
                             "schema":{
-                                "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f1/Consent/schema/Version_0.0.1/ConsentHandle/ConsentHandleResponse.json"
+                                "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f2/Consent/schema/Version_0.0.1/ConsentHandle/ConsentHandleResponse.json"
                                 
                             }
                         }
@@ -53,7 +53,7 @@
                         "content":{
                             "application/json":{
                                 "schema":{
-                                    "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version_0.0.1/ack.json"
+                                    "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f2/Core/schema/Version_0.0.1/ack.json"
 
                                 }
                             }
@@ -70,7 +70,7 @@
                     "content":{
                         "application/json":{
                             "schema":{
-                                "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f1/Consent/schema/Version_0.0.1/ConsentStatus/ConsentStatusRequest.json"
+                                "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f2/Consent/schema/Version_0.0.1/ConsentStatus/ConsentStatusRequest.json"
                             }
                         }
                     }
@@ -81,7 +81,7 @@
                         "content":{
                             "application/json":{
                                 "schema":{
-                                    "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version_0.0.1/ack.json"
+                                    "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f2/Core/schema/Version_0.0.1/ack.json"
                                 }
                             }
                         }
@@ -97,7 +97,7 @@
                     "content":{
                         "application/json":{
                             "schema":{
-                                "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f1/Consent/schema/Version_0.0.1/ConsentStatus/ConsentStatusResponse.json"
+                                "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f2/Consent/schema/Version_0.0.1/ConsentStatus/ConsentStatusResponse.json"
                             }
                         }
                     }
@@ -108,7 +108,7 @@
                         "content":{
                             "application/json":{
                                 "schema":{
-                                    "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f1/Core/schema/Version_0.0.1/ack.json"
+                                    "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f2/Core/schema/Version_0.0.1/ack.json"
                                 }
                             }
                         }
