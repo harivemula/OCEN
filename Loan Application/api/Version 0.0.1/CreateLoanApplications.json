@@ -14,7 +14,7 @@
                     "content":{
                         "application/json":{
                             "schema":{
-                                "$ref":"https://github.com/harivemula/OCEN/blob/f1/Loan%20Application/schema/Version%200.0.1/Create%20Loan%20Applications/CreateLoanApplicationsRequest.json"
+                                "$ref":"https://github.com/harivemula/OCEN/blob/f1/Loan%20Application/schema/Version%200.0.1/Bulk%20Create%20Loan%20Application/BulkCreateLoanApplicationRequest.json"
                             }
                         }
                     }
@@ -34,24 +34,24 @@
             }
         },
         "/v3/loanApplication/createLoanApplicationsResponse":{
-            "post":{
+            "post": {
                 "description":"Response to create bulk loan application",
-                "requestBody":{
+                "requestBody": {
                     "description":"Response by lender to LSP for create bulk loan application request",
-                    "content":{
-                        "application/json":{
-                            "schema":{
-                                "$ref":"https://github.com/harivemula/OCEN/blob/f1/Loan%20Application/schema/Version%200.0.1/Create%20Loan%20Applications/CreateLoanApplicationsResponse.json"
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "https://github.com/harivemula/OCEN/blob/f1/Loan%20Application/schema/Version%200.0.1/Bulk%20Create%20Loan%20Application/BulkCreateLoanApplicationRequest.json"
                             }
                         }
                     }
                 },
-                "responses":{
-                    "200":{
+                "responses": {
+                    "200": {
                         "description":"Acknowledgement of Response Received",
-                        "content":{
-                            "application/json":{
-                                "schema":{
+                        "content": {
+                            "application/json": {
+                                "schema": {
                                     "$ref":"https://github.com/harivemula/OCEN/blob/f1/Core/schema/Version%200.0.1/ack.json"
                                 }
                             }
