@@ -41,7 +41,7 @@
                     "content": {
                         "application/json": {
                             "schema": {
-                                "$ref": "https://raw.githubusercontent.com/harivemula/OCEN/f2/LoanApplication/schema/Version_0.0.1/BulkCreateLoanApplication/BulkCreateLoanApplicationRequest.json"
+                                "$ref": "../../../LoanApplication/schema/Version_0.0.1/BulkCreateLoanApplication/BulkCreateLoanApplicationRequest.json"
                             }
                         }
                     }

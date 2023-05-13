@@ -21,7 +21,7 @@
 			"$ref": "../../../../Core/schema/Version_0.0.1/response.json"
 		},
 		"payment" : {
-			"$ref" : "https://raw.githubusercontent.com/harivemula/OCEN/f2/Core/schema/Version_0.0.1/payment.json"
+			"$ref" : "../../../Core/schema/Version_0.0.1/payment.json"
 		},
 		"loanId": {
 			"type": "string"

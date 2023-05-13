@@ -75,7 +75,7 @@
             "type": "string"
         },
         "address":{
-            "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f2/Core/schema/Version_0.0.1/address.json"
+            "$ref":"../../../Core/schema/Version_0.0.1/address.json"
         }
         
 

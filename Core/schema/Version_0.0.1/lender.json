@@ -50,7 +50,7 @@
 		"documents": { 
 			"type": "array",
 			"items": {
-				"$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f2/Core/schema/Version_0.0.1/document.json"
+				"$ref":"../../../Core/schema/Version_0.0.1/document.json"
 			}
 		},
 		"url":{

@@ -1,5 +1,5 @@
 {
-    "openapi":"3.2.0",
+    "openapi":"3.0.3",
     "info":{
         "title":" Repayment API",
         "description":"API to consume for Repayment set and trigger repayment",

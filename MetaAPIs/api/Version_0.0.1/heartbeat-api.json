@@ -1,5 +1,5 @@
 {
-    "openapi":"3.2.0",
+    "openapi":"3.0.3",
     "info":{
         "title":"Heartbeat API",
         "description":"This API is invoked by both Lender and LSP to check the status of the other system",

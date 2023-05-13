@@ -22,7 +22,7 @@
 		"additionalIdentifiers": { 
 			"type": "array",
 			"items": {
-				"$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f2/Core/schema/Version_0.0.1/additionalidentifier.json"
+				"$ref":"../../../Core/schema/Version_0.0.1/additionalidentifier.json"
 			}
 		},
 		"name": { 
