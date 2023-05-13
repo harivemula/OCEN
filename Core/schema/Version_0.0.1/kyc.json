@@ -1,6 +1,6 @@
 {
 	"$schema": "http://json-schema.org/draft-07/schema#", 
-	"$id": "https://raw.githubusercontent.com/harivemula/OCEN/f2/Core/schema/Version_0.0.1/kyc.json",  
+	"$id": "Core/schema/Version_0.0.1/kyc.json",  
 	"type": "object",
 	"properties": {
 		"verificationStatus": { 
@@ -22,13 +22,13 @@
 			
 		},
         "individualKYC": {
-			"$ref": "https://raw.githubusercontent.com/harivemula/OCEN/f2/Core/schema/Version_0.0.1/kycdetails.json"
+			"$ref": "kycdetails.json"
 		},
 		"entityKYC": {
-			"$ref": "https://raw.githubusercontent.com/harivemula/OCEN/f2/Core/schema/Version_0.0.1/kycdetails.json"
+			"$ref": "kycdetails.json"
 		},
         "extensibleData":{
-            "$ref": "https://raw.githubusercontent.com/harivemula/OCEN/f2/Core/schema/Version_0.0.1/extensibleData.json"
+            "$ref": "extensibleData.json"
         }
 
 	}

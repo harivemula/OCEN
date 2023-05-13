@@ -1,6 +1,6 @@
 {
 	"$schema": "http://json-schema.org/draft-07/schema#", 
-	"$id": "https://raw.githubusercontent.com/harivemula/OCEN/f2/Core/schema/Version_0.0.1/paymentplan.json",  
+	"$id": "Core/schema/Version_0.0.1/paymentplan.json",  
 	"type": "object",
 	"required": [
         "id",
@@ -65,7 +65,7 @@
 			]
 		},
 		"tenure": {
-			"$ref": "https://raw.githubusercontent.com/harivemula/OCEN/f2/Core/schema/Version_0.0.1/loantenure.json"
+			"$ref": "loantenure.json"
 		}
 ,
 		"totalAmount": {
@@ -96,7 +96,7 @@
 			"type":"string"
 		},
 		"extensibleData":{
-			"$ref": "https://raw.githubusercontent.com/harivemula/OCEN/f2/Core/schema/Version_0.0.1/extensibleData.json"
+			"$ref": "extensibleData.json"
 		}
 		
 	}

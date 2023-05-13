@@ -1,6 +1,6 @@
 {
 	"$schema": "http://json-schema.org/draft-07/schema#", 
-	"$id": "https://raw.githubusercontent.com/harivemula/OCEN/f2/KYC/schema/Version_0.0.1/TriggerKyc/TriggerKycRequest.json", 
+	"$id": "KYC/schema/Version_0.0.1/TriggerKyc/TriggerKycRequest.json", 
 	"type": "object",
 	"required": [
 		"metadata",
@@ -10,7 +10,7 @@
 	],
 	"properties": {
 		"metadata": {
-			"$ref": "https://raw.githubusercontent.com/harivemula/OCEN/f2/Core/schema/Version_0.0.1/metadata.json"
+			"$ref": "../../../../Core/schema/Version_0.0.1/metadata.json"
 		}
 ,
 		"requestId": { 
@@ -26,7 +26,7 @@
 			}
 		},
 		"kyc":{
-			"$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f2/Core/schema/Version_0.0.1/kyc.json"
+			"$ref": "../../../../Core/schema/Version_0.0.1/kyc.json"
 		}
 	}
 }

@@ -14,7 +14,7 @@
                     "content":{
                         "application/json":{
                             "schema":{
-                                "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f2/Offers/schema/Version_0.0.1/GenerateOffer/GenerateOfferRequest.json"
+                                "$ref": "../../../Offers/schema/Version_0.0.1/GenerateOffer/GenerateOfferRequest.json"
                             }
                         }
                     }
@@ -25,7 +25,7 @@
                         "content":{
                             "application/json":{
                                 "schema":{
-                                    "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f2/Core/schema/Version_0.0.1/ack.json"
+                                    "$ref": "../../../Core/schema/Version_0.0.1/ack.json"
                                 }
                             }
                         }
@@ -41,7 +41,7 @@
                     "content":{
                         "application/json":{
                             "schema":{
-                                "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f2/Offers/schema/Version_0.0.1/GenerateOffer/GenerateOfferResponse.json"
+                                "$ref": "../../../Offers/schema/Version_0.0.1/GenerateOffer/GenerateOfferResponse.json"
                             }
                         }
                     }
@@ -52,7 +52,7 @@
                         "content":{
                             "application/json":{
                                 "schema":{
-                                    "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f2/Core/schema/Version_0.0.1/ack.json"
+                                    "$ref": "../../../Core/schema/Version_0.0.1/ack.json"
                                 }
                             }
                         }
@@ -68,7 +68,7 @@
                     "content":{
                         "application/json":{
                             "schema":{
-                                "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f2/Offers/schema/Version_0.0.1/SetOffer/SetOfferRequest.json"
+                                "$ref": "../../../Offers/schema/Version_0.0.1/SetOffer/SetOfferRequest.json"
                             }
                         }
                     }
@@ -79,7 +79,7 @@
                         "content":{
                             "application/json":{
                                 "schema":{
-                                    "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f2/Core/schema/Version_0.0.1/ack.json"
+                                    "$ref": "../../../Core/schema/Version_0.0.1/ack.json"
                                 }
                             }
                         }
@@ -95,7 +95,7 @@
                     "content":{
                         "application/json":{
                             "schema":{
-                                "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f2/Offers/schema/Version_0.0.1/SetOffer/SetOfferResponse.json"
+                                "$ref": "../../../Offers/schema/Version_0.0.1/SetOffer/SetOfferResponse.json"
                             }
                         }
                     }
@@ -106,7 +106,7 @@
                         "content":{
                             "application/json":{
                                 "schema":{
-                                    "$ref":"https://raw.githubusercontent.com/harivemula/OCEN/f2/Core/schema/Version_0.0.1/ack.json"
+                                    "$ref": "../../../Core/schema/Version_0.0.1/ack.json"
                                 }
                             }
                         }

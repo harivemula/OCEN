@@ -1,6 +1,6 @@
 {
 	"$schema": "http://json-schema.org/draft-07/schema#", 
-	"$id": "https://raw.githubusercontent.com/harivemula/OCEN/f2/Core/schema/Version_0.0.1/applicant.json",
+	"$id": "Core/schema/Version_0.0.1/applicant.json",
 	"type": "object",
 	"required": [
 		"primaryId",
@@ -22,7 +22,7 @@
 		"additionalIdentifiers": {
 			"type": "array",
 			"items":{
-                "$ref": "https://raw.githubusercontent.com/harivemula/OCEN/f2/Core/schema/Version_0.0.1/additionalidentifier.json"    
+                "$ref": "additionalidentifier.json"    
             }
 
 		},
@@ -54,7 +54,7 @@
 				"type":"string"
 			},
 		"extensibleData":{
-			"$ref": "https://raw.githubusercontent.com/harivemula/OCEN/f2/Core/schema/Version_0.0.1/extensibleData.json"
+			"$ref": "extensibleData.json"
 		}	
 	}
 }

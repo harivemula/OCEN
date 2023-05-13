@@ -1,6 +1,6 @@
 {
 	"$schema": "http://json-schema.org/draft-07/schema#", 
-	"$id": "https://raw.githubusercontent.com/harivemula/OCEN/f2/GrantLoan/schema/Version_0.0.1/LoanSummary/LoanSummryResponse.json", 
+	"$id": "GrantLoan/schema/Version_0.0.1/LoanSummary/LoanSummryResponse.json", 
 	"type": "object",
 	"required": [
 		"metadata",
@@ -16,11 +16,11 @@
 	],
 	"properties": {
 		"metadata": {
-			"$ref": "https://raw.githubusercontent.com/harivemula/OCEN/f2/Core/schema/Version_0.0.1/metadata.json"
+			"$ref": "../../../../Core/schema/Version_0.0.1/metadata.json"
 		}
 ,
 		"response": {
-			"$ref": "https://raw.githubusercontent.com/harivemula/OCEN/f2/Core/schema/Version_0.0.1/response.json"
+			"$ref": "../../../../Core/schema/Version_0.0.1/response.json"
 		}
 ,
 		"requestId": {
@@ -74,11 +74,11 @@
 			],
 			"properties": {
 				"nextRepayment": { 
-					"$ref": "https://raw.githubusercontent.com/harivemula/OCEN/f2/Core/schema/Version_0.0.1/payment.json"
+					"$ref": "../../../../Core/schema/Version_0.0.1/payment.json"
 				}
 ,
 				"currentRepayment": { 
-					"$ref": "https://raw.githubusercontent.com/harivemula/OCEN/f2/Core/schema/Version_0.0.1/payment.json"
+					"$ref": "../../../../Core/schema/Version_0.0.1/payment.json"
 				}
 ,
 				"principalPaid": { 
@@ -103,7 +103,7 @@
 					"type": "string"
 				},
 				"tenure": { 
-					"$ref": "https://raw.githubusercontent.com/harivemula/OCEN/f2/Core/schema/Version_0.0.1/loantenure.json"
+					"$ref": "../../../../Core/schema/Version_0.0.1/loantenure.json"
 				}
 ,
 				"description": { 

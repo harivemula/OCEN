@@ -1,6 +1,6 @@
 {
 	"$schema": "http://json-schema.org/draft-07/schema#", 
-	"$id": "https://raw.githubusercontent.com/harivemula/OCEN/f2/GrantLoan/schema/Version_0.0.1/GrantLoan/GrantLoanRequest.json", 
+	"$id": "GrantLoan/schema/Version_0.0.1/GrantLoan/GrantLoanRequest.json", 
 	 
 	"type": "object",
 	"required": [
@@ -10,7 +10,7 @@
 	],
 	"properties": {
 		"metadata": {
-			"$ref": "https://raw.githubusercontent.com/harivemula/OCEN/f2/Core/schema/Version_0.0.1/metadata.json"
+			"$ref": "../../../../Core/schema/Version_0.0.1/metadata.json"
 		}
 ,
 		"requestId": {

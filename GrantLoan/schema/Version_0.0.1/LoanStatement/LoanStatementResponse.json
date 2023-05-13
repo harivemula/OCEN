@@ -1,6 +1,6 @@
 {
 	"$schema": "http://json-schema.org/draft-07/schema#", 
-	"$id": "https://raw.githubusercontent.com/harivemula/OCEN/f2/GrantLoan/schema/Version_0.0.1/LoanStatement/LoanStatementResponse.json", 
+	"$id": "GrantLoan/schema/Version_0.0.1/LoanStatement/LoanStatementResponse.json", 
 	"type": "object",
 	"required": [
 		"metadata",
@@ -11,12 +11,12 @@
 	],
 	"properties": {
 		"metadata": {
-			"$ref": "https://raw.githubusercontent.com/harivemula/OCEN/f2/Core/schema/Version_0.0.1/metadata.json"
+			"$ref": "../../../../Core/schema/Version_0.0.1/metadata.json"
 			
 		}
 ,
 		"response": { 
-			"$ref": "https://raw.githubusercontent.com/harivemula/OCEN/f2/Core/schema/Version_0.0.1/response.json"
+			"$ref": "../../../../Core/schema/Version_0.0.1/response.json"
 		}
 ,
 		"requestId": {
@@ -28,7 +28,7 @@
 		"accountStatement": { 
 			"type": "array",
 			"items":{ 
-				"$ref": "https://raw.githubusercontent.com/harivemula/OCEN/f2/Core/schema/Version_0.0.1/transaction.json"
+				"$ref": "../../../../Core/schema/Version_0.0.1/transaction.json"
 			}
 
 		}
