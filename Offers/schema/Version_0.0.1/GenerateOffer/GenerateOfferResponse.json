@@ -23,7 +23,7 @@
 		"loanApplications": {
 			"type": "array",
 			"items":{ 
-				"$ref": "../../../../Core/schema/Version_0.0.1/loanApplications.json"
+				"$ref": "../../../../Core/schema/Version_0.0.1/loanApplication.json"
 			}
 
 		}
