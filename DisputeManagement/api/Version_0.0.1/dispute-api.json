@@ -33,7 +33,7 @@
                 }
             }
         },
-        " /v3/loan/dispute/raiseDisputeResponse":{
+        "/v3/loan/dispute/raiseDisputeResponse":{
             "post":{
                 "description":"Invoked by lender once Dispute is raised",
                 "requestBody":{

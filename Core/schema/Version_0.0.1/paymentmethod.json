@@ -23,8 +23,6 @@
 
 		},
 		"data": {
-			"type": "object",
-			"description": "Data for different type will be defined in later version of APIs. As of now, LSP can define it as per their requirement",
 			"$ref": "extensibleData.json"
 		},
 		"url": {
